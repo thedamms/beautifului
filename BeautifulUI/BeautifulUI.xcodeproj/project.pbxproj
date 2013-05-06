@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DCDE0251737449800CAE466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCDE0241737449800CAE466 /* UIKit.framework */; };
+		1DCDE0271737449800CAE466 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCDE0261737449800CAE466 /* Foundation.framework */; };
+		1DCDE0291737449800CAE466 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCDE0281737449800CAE466 /* CoreGraphics.framework */; };
+		1DCDE02F1737449800CAE466 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DCDE02D1737449800CAE466 /* InfoPlist.strings */; };
+		1DCDE0311737449800CAE466 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCDE0301737449800CAE466 /* main.m */; };
+		1DCDE0351737449800CAE466 /* GDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCDE0341737449800CAE466 /* GDAppDelegate.m */; };
+		1DCDE0371737449800CAE466 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DCDE0361737449800CAE466 /* Default.png */; };
+		1DCDE0391737449800CAE466 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DCDE0381737449800CAE466 /* Default@2x.png */; };
+		1DCDE03B1737449800CAE466 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DCDE03A1737449800CAE466 /* Default-568h@2x.png */; };
+		1DCDE03E1737449800CAE466 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DCDE03C1737449800CAE466 /* MainStoryboard.storyboard */; };
+		1DCDE0411737449800CAE466 /* GDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCDE0401737449800CAE466 /* GDViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DCDE0211737449800CAE466 /* BeautifulUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautifulUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DCDE0241737449800CAE466 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1DCDE0261737449800CAE466 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DCDE0281737449800CAE466 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1DCDE02C1737449800CAE466 /* BeautifulUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeautifulUI-Info.plist"; sourceTree = "<group>"; };
+		1DCDE02E1737449800CAE466 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1DCDE0301737449800CAE466 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DCDE0321737449800CAE466 /* BeautifulUI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeautifulUI-Prefix.pch"; sourceTree = "<group>"; };
+		1DCDE0331737449800CAE466 /* GDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDAppDelegate.h; sourceTree = "<group>"; };
+		1DCDE0341737449800CAE466 /* GDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDAppDelegate.m; sourceTree = "<group>"; };
+		1DCDE0361737449800CAE466 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1DCDE0381737449800CAE466 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1DCDE03A1737449800CAE466 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1DCDE03D1737449800CAE466 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1DCDE03F1737449800CAE466 /* GDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDViewController.h; sourceTree = "<group>"; };
+		1DCDE0401737449800CAE466 /* GDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DCDE01E1737449800CAE466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DCDE0251737449800CAE466 /* UIKit.framework in Frameworks */,
+				1DCDE0271737449800CAE466 /* Foundation.framework in Frameworks */,
+				1DCDE0291737449800CAE466 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DCDE0181737449800CAE466 = {
+			isa = PBXGroup;
+			children = (
+				1DCDE02A1737449800CAE466 /* BeautifulUI */,
+				1DCDE0231737449800CAE466 /* Frameworks */,
+				1DCDE0221737449800CAE466 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DCDE0221737449800CAE466 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DCDE0211737449800CAE466 /* BeautifulUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DCDE0231737449800CAE466 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DCDE0241737449800CAE466 /* UIKit.framework */,
+				1DCDE0261737449800CAE466 /* Foundation.framework */,
+				1DCDE0281737449800CAE466 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DCDE02A1737449800CAE466 /* BeautifulUI */ = {
+			isa = PBXGroup;
+			children = (
+				1DCDE0331737449800CAE466 /* GDAppDelegate.h */,
+				1DCDE0341737449800CAE466 /* GDAppDelegate.m */,
+				1DCDE03C1737449800CAE466 /* MainStoryboard.storyboard */,
+				1DCDE03F1737449800CAE466 /* GDViewController.h */,
+				1DCDE0401737449800CAE466 /* GDViewController.m */,
+				1DCDE02B1737449800CAE466 /* Supporting Files */,
+			);
+			path = BeautifulUI;
+			sourceTree = "<group>";
+		};
+		1DCDE02B1737449800CAE466 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DCDE02C1737449800CAE466 /* BeautifulUI-Info.plist */,
+				1DCDE02D1737449800CAE466 /* InfoPlist.strings */,
+				1DCDE0301737449800CAE466 /* main.m */,
+				1DCDE0321737449800CAE466 /* BeautifulUI-Prefix.pch */,
+				1DCDE0361737449800CAE466 /* Default.png */,
+				1DCDE0381737449800CAE466 /* Default@2x.png */,
+				1DCDE03A1737449800CAE466 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DCDE0201737449800CAE466 /* BeautifulUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DCDE0441737449800CAE466 /* Build configuration list for PBXNativeTarget "BeautifulUI" */;
+			buildPhases = (
+				1DCDE01D1737449800CAE466 /* Sources */,
+				1DCDE01E1737449800CAE466 /* Frameworks */,
+				1DCDE01F1737449800CAE466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeautifulUI;
+			productName = BeautifulUI;
+			productReference = 1DCDE0211737449800CAE466 /* BeautifulUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DCDE0191737449800CAE466 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Gary Damm";
+			};
+			buildConfigurationList = 1DCDE01C1737449800CAE466 /* Build configuration list for PBXProject "BeautifulUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1DCDE0181737449800CAE466;
+			productRefGroup = 1DCDE0221737449800CAE466 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DCDE0201737449800CAE466 /* BeautifulUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DCDE01F1737449800CAE466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DCDE02F1737449800CAE466 /* InfoPlist.strings in Resources */,
+				1DCDE0371737449800CAE466 /* Default.png in Resources */,
+				1DCDE0391737449800CAE466 /* Default@2x.png in Resources */,
+				1DCDE03B1737449800CAE466 /* Default-568h@2x.png in Resources */,
+				1DCDE03E1737449800CAE466 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DCDE01D1737449800CAE466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DCDE0311737449800CAE466 /* main.m in Sources */,
+				1DCDE0351737449800CAE466 /* GDAppDelegate.m in Sources */,
+				1DCDE0411737449800CAE466 /* GDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1DCDE02D1737449800CAE466 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DCDE02E1737449800CAE466 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DCDE03C1737449800CAE466 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DCDE03D1737449800CAE466 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DCDE0421737449800CAE466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DCDE0431737449800CAE466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DCDE0451737449800CAE466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeautifulUI/BeautifulUI-Prefix.pch";
+				INFOPLIST_FILE = "BeautifulUI/BeautifulUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1DCDE0461737449800CAE466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeautifulUI/BeautifulUI-Prefix.pch";
+				INFOPLIST_FILE = "BeautifulUI/BeautifulUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DCDE01C1737449800CAE466 /* Build configuration list for PBXProject "BeautifulUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DCDE0421737449800CAE466 /* Debug */,
+				1DCDE0431737449800CAE466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DCDE0441737449800CAE466 /* Build configuration list for PBXNativeTarget "BeautifulUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DCDE0451737449800CAE466 /* Debug */,
+				1DCDE0461737449800CAE466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DCDE0191737449800CAE466 /* Project object */;
+}
